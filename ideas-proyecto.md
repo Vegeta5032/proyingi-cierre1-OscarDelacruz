@@ -5,67 +5,73 @@
 
 ## Criterios de viabilidad
 
-Consideré que una idea es viable para esta materia si atiende un problema concreto de mi entorno, tiene una parte física fabricable, usa por lo menos un sensor o actuador con un microcontrolador y puede realizarse por principiantes en unas ocho sesiones.
+Consideré que una idea es viable para esta materia si atiende un problema concreto de mi entorno, tiene una parte física fabricable, usa por lo menos un sensor o actuador con un microcontrolador y puede realizarse por principiantes en unas ocho sesiones. En la idea del software de trading, la parte física podría ser una estación o módulo de señal; el software completo quedaría como una versión inicial y limitada.
 
-## Idea 1: Contenedor inteligente para avisar cuando está lleno
+## Idea 1: Lentes básicos de asistencia para personas ciegas
 
-**Problema.** En los espacios de estudio y convivencia se puede acumular basura cuando el contenedor ya está casi lleno. Esto provoca que las personas dejen residuos fuera o que el personal tenga que revisar varios botes manualmente.
+**Problema.** Una persona ciega puede encontrar obstáculos a la altura del torso o de la cabeza que no siempre detecta con un bastón. Chocarse con esos objetos puede causar golpes, caídas o inseguridad al caminar.
 
-**A quién le pasa.** A los estudiantes, profesores y personal que utilizan los espacios comunes de la IBERO, especialmente cuando hay mucha actividad entre clases.
+**A quién le pasa.** A personas ciegas o con discapacidad visual que caminan en espacios interiores o exteriores con obstáculos inesperados. La intención es que sea una ayuda adicional y no un reemplazo del bastón, del perro guía o de otras herramientas de movilidad.
 
-**Dónde lo he visto.** En los botes de basura de los espacios comunes del campus he observado que, después de los cambios de clase o durante la hora de comida, algunos se llenan rápidamente y quedan residuos alrededor. **Debo confirmar que esta redacción coincida con una observación que yo haya hecho personalmente.**
-
-**Cómo funcionaría.**
-- Qué mide o detecta (sensor): un sensor ultrasónico mediría la distancia entre la parte superior del bote y la basura para estimar el nivel de llenado; otro sensor podría detectar la mano para abrir la tapa.
-- Qué hace con eso (actuador, aviso, pantalla): un servo abriría la tapa sin tocarla y un LED rojo se encendería cuando el nivel llegara a un límite.
-- Qué pieza habría que fabricar: una tapa ligera, un soporte para el sensor y una caja protectora para el Arduino y los cables.
-
-## Idea 2: Detector de fugas o derrames de agua
-
-**Problema.** Una pequeña fuga debajo de un lavabo o un derrame que no se atiende pronto puede mojar el piso, desperdiciar agua y causar daños en muebles o instalaciones.
-
-**A quién le pasa.** A las personas que usan baños, cocinas o áreas de servicio en casa y en la escuela, además del personal que tiene que detectar y limpiar el derrame.
-
-**Dónde lo he visto.** En el área del lavabo de mi casa he tenido que revisar si el piso queda húmedo después de usarlo; también he visto que un derrame pequeño puede pasar desapercibido si nadie está cerca. **Debo confirmar que esta redacción describa algo que realmente haya observado.**
+**Dónde lo he visto.** He pensado en este problema al observar que en pasillos, salones y espacios concurridos puede haber personas, mochilas, puertas abiertas u objetos a diferentes alturas. **Debo cambiar esta frase por un lugar y una situación que yo haya observado personalmente antes de entregar.**
 
 **Cómo funcionaría.**
-- Qué mide o detecta (sensor): un sensor de agua colocado cerca del punto de riesgo detectaría la presencia de humedad.
-- Qué hace con eso (actuador, aviso, pantalla): un buzzer y un LED rojo darían una alerta local; opcionalmente se podría agregar una pantalla con el estado del sensor.
-- Qué pieza habría que fabricar: una base inclinada para colocar el sensor sin cubrirlo y una carcasa ventilada que proteja el microcontrolador del agua.
+- Qué mide o detecta (sensor): uno o dos sensores ultrasónicos medirían la distancia aproximada hacia los obstáculos que estén enfrente.
+- Qué hace con eso (actuador, aviso, pantalla): un buzzer o un pequeño motor vibrador avisaría con pulsos más rápidos cuando el obstáculo esté más cerca. El prototipo no necesitaría cámara ni reconocimiento facial.
+- Qué pieza habría que fabricar: una montura de lentes o una pieza frontal ligera para sostener el sensor, además de una caja pequeña para el microcontrolador y la batería.
 
-## Idea 3: Indicador visual de ruido para salones
+**Por qué me interesa.** Esta es mi idea principal porque me gustaría desarrollar algo que pueda ayudar a las personas y que tenga un propósito social. Los lentes serían básicos, económicos y enfocados en detectar obstáculos; no intentarían resolver toda la movilidad de una persona.
 
-**Problema.** Cuando varias personas hablan al mismo tiempo en un salón, el ruido puede aumentar y dificultar que el grupo escuche instrucciones o trabaje con concentración. No siempre se nota el nivel de ruido hasta que ya interrumpió la actividad.
+## Idea 2: Aviso de comida lista en la cafetería de la IBERO
 
-**A quién le pasa.** A estudiantes y profesores que trabajan en salones, laboratorios o espacios de estudio compartidos.
+**Problema.** Cuando un estudiante pide comida en la cafetería, puede tener que esperar cerca del mostrador o regresar varias veces para preguntar si su pedido ya está listo. Esto genera filas, pérdida de tiempo y concentración de personas en el mismo lugar.
 
-**Dónde lo he visto.** En salones y espacios de trabajo de la universidad he notado que el volumen sube cuando varios equipos conversan a la vez, y que el profesor tiene que pedir silencio repetidamente. **Debo confirmar que esta observación sea propia y modificar el lugar si es necesario.**
+**A quién le pasa.** A los estudiantes, profesores y trabajadores que compran comida en la cafetería de la IBERO, especialmente durante los horarios de mayor demanda.
+
+**Dónde lo he visto.** En la cafetería de la IBERO he observado que las personas esperan cerca del área de entrega y preguntan si ya está listo su pedido. **Debo confirmar el lugar y describir una situación específica que yo haya visto personalmente.**
 
 **Cómo funcionaría.**
-- Qué mide o detecta (sensor): un micrófono analógico mediría la amplitud aproximada del sonido durante intervalos cortos.
-- Qué hace con eso (actuador, aviso, pantalla): tres LEDs mostrarían verde, amarillo o rojo según el nivel de ruido, sin grabar conversaciones.
-- Qué pieza habría que fabricar: una carcasa de escritorio o pared con una rejilla para el micrófono y una ventana para que se vean los LEDs.
+- Qué mide o detecta (sensor): el usuario escanearía un código QR en la cafetería y el sistema registraría un identificador del pedido; el personal podría actualizar el estado desde una pantalla sencilla.
+- Qué hace con eso (actuador, aviso, pantalla): al estar listo el pedido, la aplicación o una página móvil enviaría una notificación al celular indicando que ya puede recogerse. La primera versión podría usar un código de pedido y un tablero para el personal.
+- Qué pieza habría que fabricar: una base o letrero físico con el código QR, y posiblemente una pequeña pantalla o indicador en el área de entrega.
+
+**Por qué me interesa.** Esta idea ayudaría a la comunidad de la escuela porque reduciría esperas innecesarias y haría más ordenado el proceso de entrega. También se podría probar primero con un menú y pedidos simulados, sin modificar todavía el sistema real de la cafetería.
+
+## Idea 3: Software de análisis y backtesting para trading
+
+**Problema.** Una persona que hace trading puede tardar mucho en comparar estrategias, revisar datos históricos y vigilar varios mercados. También puede tomar decisiones impulsivas si opera sin reglas claras o sin haber probado antes una estrategia.
+
+**A quién le pasa.** A personas que hacen trading o que están aprendiendo a operar en mercados de criptomonedas, acciones y forex, y que necesitan analizar sus estrategias de una forma más ordenada.
+
+**Dónde lo he visto.** En mi propia experiencia haciendo trading he tenido que revisar gráficas, comparar movimientos y pensar qué habría pasado si hubiera aplicado una estrategia en otro momento. **Debo agregar una situación concreta y personal que pueda explicar con honestidad.**
+
+**Cómo funcionaría.**
+- Qué mide o detecta (sensor): en este caso el equivalente a la entrada sería el precio histórico y los indicadores técnicos descargados de una fuente de datos; no usaría sensores físicos para tomar decisiones financieras.
+- Qué hace con eso (actuador, aviso, pantalla): el software ejecutaría backtesting, mostraría resultados como rendimiento, pérdidas, operaciones y retrocesos, y generaría señales. Como primera versión solo trabajaría con datos históricos y paper trading; no operaría dinero real de forma autónoma.
+- Qué pieza habría que fabricar: una estación o carcasa física sencilla con indicadores LED para mostrar si el sistema está ejecutando una prueba, si terminó o si requiere atención. La parte principal sería de software.
+
+**Por qué me interesa.** Me gusta el trading y ya tengo interés en aprender más sobre los mercados, pero creo que me iría mejor si desarrollo una herramienta que me obligue a probar las estrategias con datos antes de tomar decisiones. Una versión futura podría conectarse a una cuenta de práctica; operar dinero real requeriría más pruebas, controles de seguridad y supervisión humana.
 
 ## Tabla de viabilidad
 
-| Criterio | Idea 1 | Idea 2 | Idea 3 |
+| Criterio | Idea 1: lentes | Idea 2: cafetería | Idea 3: trading |
 |---|---|---|---|
-| Problema concreto de mi entorno | Sí | Sí | Sí |
-| Parte física fabricable | Sí | Sí | Sí |
-| Sensor o actuador | Sí | Sí | Sí |
-| Construible en ocho sesiones por principiantes | Sí | Sí | Sí |
-| Qué tan seguro estoy de lo anterior | Medio | Medio | Medio |
+| Problema concreto de mi entorno | Sí | Sí | Parcial |
+| Parte física fabricable | Sí | Sí | Parcial |
+| Sensor o actuador | Sí | Sí | Parcial |
+| Construible en ocho sesiones por principiantes | Sí | Parcial | No |
+| Qué tan seguro estoy de lo anterior | Medio | Medio | Bajo |
 
 ## Mi elección
 
-**Idea elegida:** Indicador visual de ruido para salones.
+**Idea elegida:** Lentes básicos de asistencia para personas ciegas.
 
-**Por qué.** Es la idea que considero más viable porque necesita pocos componentes: un micrófono, un microcontrolador y LEDs. También permite construir una carcasa sencilla con impresión 3D o corte láser y probar el sistema en diferentes niveles de sonido. A diferencia de una solución que grabe audio, mi propuesta solo usaría la intensidad aproximada para dar una señal visual y no necesitaría guardar conversaciones.
+**Por qué.** Es la idea que más me interesa porque tiene un beneficio social directo: ayudar a que una persona ciega detecte obstáculos que podrían estar fuera del alcance del bastón. También tiene una relación clara entre sensor, microcontrolador, aviso y pieza fabricable. El alcance se puede mantener pequeño usando solo medición de distancia y vibración, por lo que es más realista para un equipo principiante que un sistema completo de trading.
 
-**Qué todavía no sé.** Todavía necesito comprobar qué sensor de sonido está disponible, calibrar los niveles para que no marque rojo por cualquier ruido y decidir dónde se colocaría sin distraer. También tendría que probar si los LEDs son suficientes o si conviene agregar una pantalla pequeña.
+**Qué todavía no sé.** Necesito investigar qué sensor ultrasónico tiene el tamaño y consumo adecuados, cómo colocar los sensores sin hacer incómodos los lentes y cómo calibrar las alertas. También tendría que probar el prototipo de manera segura y con autorización, sin presentarlo como un dispositivo médico ni como un sistema que garantice evitar todos los obstáculos.
 
 ## Declaración de uso de IA
 
 - **Herramienta utilizada:** ChatGPT.
-- **Qué le pedí:** ayuda para proponer ideas compatibles con sensores, actuadores, microcontroladores y una pieza fabricable, además de organizar la tabla de viabilidad.
-- **Qué modifiqué o rechacé de su respuesta, y por qué:** elegí y adapté las tres ideas, y dejé señaladas las observaciones locales que debo confirmar personalmente. No aceptaré como hecho ninguna observación que no haya visto yo.
+- **Qué le pedí:** ayuda para organizar tres ideas relacionadas con asistencia a personas ciegas, servicio de cafetería y trading, incluyendo sensores, actuadores, software y viabilidad.
+- **Qué modifiqué o rechacé de su respuesta, y por qué:** elegí las ideas que realmente me interesan, cambié el enfoque de la tercera para que el primer prototipo sea de backtesting y paper trading, y debo reemplazar las frases marcadas con mis observaciones personales. No presentaré la operación autónoma con dinero real como una función ya construida.
