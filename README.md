@@ -8,12 +8,12 @@
 
 ## Sobre mí
 
-Soy Oscar David de la Cruz Alvarado y estudio Ingeniería en Sistemas Computacionales. Elegí esta carrera porque me interesa entender cómo funcionan los programas y los dispositivos, y porque quiero aprender a convertir una necesidad en una solución que realmente se pueda utilizar. En este curso espero mejorar mi forma de observar problemas, diseñar prototipos y trabajar con sensores, actuadores y microcontroladores.
+Soy Oscar David de la Cruz Alvarado y estudio Ingeniería en Sistemas Computacionales. Elegí esta carrera porque me interesa entender También me interesan mucho los mercados financieros y el trading, por lo que me gustaría combinar la programación con el análisis de datos para crear herramientas útiles.
 
 ## Contenido de este repositorio
 
-- [Ideas de proyecto](ideas-proyecto.md) — tres ideas de prototipo con sensores, actuadores y una parte física fabricable.
-- [Investigación](investigacion.md) — ejemplos que ya existen, fuentes consultadas y diferencias de mi propuesta.
+- [Ideas de proyecto](ideas-proyecto.md) — tres ideas de proyecto con su problema, funcionamiento y análisis de viabilidad.
+- [Investigación](investigacion.md) — ejemplos existentes y fuentes de la idea que se elija. Esta parte todavía está pendiente.
 
 ## Herramientas que estoy usando
 
@@ -26,13 +26,13 @@ Soy Oscar David de la Cruz Alvarado y estudio Ingeniería en Sistemas Computacio
 
 ## Cómo voy en el curso
 
-- [x] Ya logré crear el repositorio, clonar el proyecto y abrir las plantillas en Obsidian.
+- [x] Ya logré crear el repositorio, clonarlo y abrir las plantillas en Obsidian.
 - [x] Ya entiendo mejor la relación entre Markdown, Obsidian, Git y GitHub.
-- [ ] Todavía necesito practicar más los comandos de Git y verificar mejor que mis commits queden ligados a mi cuenta.
-- [ ] Quiero aprender a investigar la viabilidad de una idea y a construir un prototipo que funcione en un contexto real.
+- [ ] Todavía necesito practicar más los comandos de Git y comprobar que mis commits queden ligados a mi cuenta.
+- [ ] Quiero investigar mejor los sensores, las aplicaciones móviles y el análisis de datos para convertir una idea en un prototipo.
 
 ## Declaración de uso de IA
 
 - **Herramienta utilizada:** ChatGPT.
-- **Qué le pedí:** apoyo para organizar la estructura de los archivos, proponer redacción inicial y revisar que se incluyeran los requisitos de la actividad.
-- **Qué modifiqué o rechacé de su respuesta, y por qué:** revisé la propuesta, la adapté a mi forma de expresarme y debo confirmar personalmente las observaciones de los lugares donde vi cada problema y los enlaces de investigación.
+- **Qué le pedí:** apoyo para organizar la estructura y mejorar la redacción de mis ideas de proyecto.
+- **Qué modifiqué o rechacé de su respuesta, y por qué:** cambié las ideas para que reflejaran mis intereses y mis motivos: ayudar a personas ciegas, mejorar el servicio de comida de la escuela y desarrollar una herramienta relacionada con el trading. La investigación todavía no está realizada.
