@@ -8,7 +8,7 @@
 
 ## Sobre mí
 
-Soy Oscar David de la Cruz Alvarado y estudio Ingeniería en Sistemas Computacionales. Elegí esta carrera porque me interesa entender También me interesan mucho los mercados financieros y el trading, por lo que me gustaría combinar la programación con el análisis de datos para crear herramientas útiles.
+Soy Oscar David de la Cruz Alvarado y estudio Ingeniería en Sistemas Computacionales. Elegí esta carrera porque me interesa mucho aprender a programar y entender cómo funcionan los sistemas. También me interesan mucho los mercados financieros y el trading, por lo que me gustaría combinar la programación con el análisis de datos para crear herramientas útiles.
 
 ## Contenido de este repositorio
 
@@ -17,12 +17,12 @@ Soy Oscar David de la Cruz Alvarado y estudio Ingeniería en Sistemas Computacio
 
 ## Herramientas que estoy usando
 
-| Herramienta | ¿Para qué la uso? | ¿Ya la tengo funcionando? |
-|---|---|---|
-| Markdown | Para organizar la información con títulos, listas, tablas y enlaces. | Sí |
-| Obsidian | Para editar mis notas y relacionarlas con enlaces internos. | Sí |
-| Git | Para guardar versiones de mis archivos y registrar mis avances. | A medias |
-| GitHub | Para publicar el repositorio y conservar la evidencia de mis commits. | Sí |
+| Herramienta | ¿Para qué la uso?                                                     | ¿Ya la tengo funcionando? |
+| ----------- | --------------------------------------------------------------------- | ------------------------- |
+| Markdown    | Para organizar la información.                                        | Sí                        |
+| Obsidian    | Para editar notas y relacionarlas con enlaces internos.               | Sí                        |
+| Git         | Para guardar versiones de mis archivos y registrar mis avances.       | A medias                  |
+| GitHub      | Para publicar el repositorio y conservar la evidencia de mis commits. | Sí                        |
 
 ## Cómo voy en el curso
 
